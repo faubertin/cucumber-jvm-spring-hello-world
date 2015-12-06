@@ -6,10 +6,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-    features = { "classpath:features/HelloWorld.feature" },
+    features = { "classpath:features" },
     glue = { "classpath:org.faubertin.stepdefs" },
     plugin = { "pretty", "html:target/cucumber" }
 )
-public class HelloWorldTest {
+public class RunAllTest {
 
 }

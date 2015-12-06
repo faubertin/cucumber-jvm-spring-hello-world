@@ -4,4 +4,4 @@
 ```
 mvn clean test
 ```
-Results can be found in target/
+Results can be found in target/cucumber
